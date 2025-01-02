@@ -29,49 +29,56 @@
             "lastName": "Ittycheriah",
             "computerId": 5,
             "birthYear":2005,
-            "departmentId": 1
+            "departmentId": 1, 
+            "locationId":2
         },{
             "id": 2,
             "firstName": "Edita",
             "lastName": "Ado",
             "computerId": 3,
             "birthYear":2001,
-            "departmentId": 2
+            "departmentId": 2, 
+            "locationId":3
         },{
             "id": 3,
             "firstName": "Lu",
             "lastName": "Hedson",
             "computerId": 4,
             "birthYear":1994,
-            "departmentId": 3
+            "departmentId": 3, 
+            "locationId":1
         },{
             "id": 4,
             "firstName": "Nut",
             "lastName": "ForMice",
             "computerId": 2,
             "birthYear":1999,
-            "departmentId": 4
+            "departmentId": 4, 
+            "locationId":2
         },{
             "id": 5,
             "firstName": "Nombar",
             "lastName": "Franke",
             "computerId": 2,
             "birthYear":2000,
-            "departmentId": 2
+            "departmentId": 2, 
+            "locationId":3
         },{
             "id": 6,
             "firstName": "Lukie",
             "lastName": "Hudson",
             "computerId": 3,
             "birthYear":1990,
-            "departmentId": 5
+            "departmentId": 5, 
+            "locationId":1
         },{
             "id": 7,
             "firstName": "Wayne",
             "lastName": "Bullseye",
             "computerId": 4,
             "birthYear":1989,
-            "departmentId": 5
+            "departmentId": 5, 
+            "locationId":2
         }
     ],
     "departments": [
@@ -91,5 +98,55 @@
             "id": 5,
             "name":"IT"
         }
-    ]
+    ],
+     "locations": [
+        {
+                "id": 1,
+                "name":"Nashville"
+        }, {
+                "id": 2,
+                "name":"Atlanta"
+        }, {
+                "id": 3,
+                "name":"Memphis"
+        }
+    ],
+    "customers": [
+    {
+        "id": 1,
+        "name": "Juniper Distribution"
+    },{
+        "id": 2,
+        "name": "Mars Canyons"
+    },{
+        "id": 3,
+        "name": "Pegasus Wings"
+    },{
+        "id": 4,
+        "name": "Medusa's Kingdom"
+    }
+],
+"employeeCustomers": [
+    {
+        "id": 1,
+        "customerId": 1,
+        "employeeId": 2
+    },{
+        "id": 2,
+        "customerId": 2,
+        "employeeId": 3
+    },{
+        "id": 3,
+        "customerId": 1,
+        "employeeId": 4
+    },{
+        "id": 4,
+        "customerId": 3,
+        "employeeId": 5
+    },{
+        "id": 5,
+        "customerId": 4,
+        "employeeId": 51
+    }
+]
 }

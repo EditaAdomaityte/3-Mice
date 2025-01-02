@@ -1,7 +1,7 @@
 
 
 export const employeeList = async() => {
-    const getEmployees = await fetch ("http://localhost:8088/employees?_expand=computer&_expand=department")
+    const getEmployees = await fetch ("http://localhost:8088/employees?_expand=computer&_expand=department&_expand=location")
     const employees = await getEmployees.json()
 
     let html="<article>"
@@ -16,6 +16,9 @@ export const employeeList = async() => {
             </section>
             <section class="employee__department">
              Works in the ${employee.department.name} department
+            </section>
+            <section class="employee__location">
+            Works at the ${employee.location.name} office
             </section>
             </div>`
         }
