@@ -1,0 +1,95 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        }, {
+            "id": 2,
+            "model": "Macbook Pro 6",
+            "year": 2019
+        }, {
+            "id": 3,
+            "model": "Macbook Pro 3",
+            "year": 2018
+        }, {
+            "id": 4,
+            "model": "HP Pro 5",
+            "year": 2017
+        }, {
+            "id": 5,
+            "model": "HP Pro",
+            "year": 2016
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 5,
+            "birthYear":2005,
+            "departmentId": 1
+        },{
+            "id": 2,
+            "firstName": "Edita",
+            "lastName": "Ado",
+            "computerId": 3,
+            "birthYear":2001,
+            "departmentId": 2
+        },{
+            "id": 3,
+            "firstName": "Lu",
+            "lastName": "Hedson",
+            "computerId": 4,
+            "birthYear":1994,
+            "departmentId": 3
+        },{
+            "id": 4,
+            "firstName": "Nut",
+            "lastName": "ForMice",
+            "computerId": 2,
+            "birthYear":1999,
+            "departmentId": 4
+        },{
+            "id": 5,
+            "firstName": "Nombar",
+            "lastName": "Franke",
+            "computerId": 2,
+            "birthYear":2000,
+            "departmentId": 2
+        },{
+            "id": 6,
+            "firstName": "Lukie",
+            "lastName": "Hudson",
+            "computerId": 3,
+            "birthYear":1990,
+            "departmentId": 5
+        },{
+            "id": 7,
+            "firstName": "Wayne",
+            "lastName": "Bullseye",
+            "computerId": 4,
+            "birthYear":1989,
+            "departmentId": 5
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name":"Sales"
+        }, {
+            "id": 2,
+            "name":"Accounting"
+        }, {
+            "id": 3,
+            "name":"QA"
+        }, {
+            "id": 4,
+            "name":"HR"
+        }, {
+            "id": 5,
+            "name":"IT"
+        }
+    ]
+}
